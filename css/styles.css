@@ -719,6 +719,56 @@ img {
   margin-bottom: 16px;
   font-weight: 500;
 }
+/*--------------------------------- FOOTER INPUT ------------------------------*/
+
+.container-footer-backdrop {
+}
+.paragraph-backdrop {
+  color: var(--WHITE, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.modal-form-footer {
+  display: flex;
+  gap: 24px;
+  margin-left: 16px;
+}
+
+.modal-input-footer {
+  color: var(--WHITE, #fff);
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 2; /* 200% */
+  letter-spacing: 0.04em;
+  width: 264px;
+  height: 40px;
+}
+.button-footer-submit {
+  color: var(--WHITE, #fff);
+  border-radius: 4px;
+  background: var(--IRIS, #4d5ae5);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  width: 165px;
+  height: 40px;
+  position: relative;
+}
+.modal-icon-footer {
+  position: absolute;
+  left: 16px;
+  bottom: 11px;
+  transform: translate(-50%);
+}
+
+/*---------------------------------- FOOTER INPUT ----------------------------*/
 /*==================================== FOOTER ================================*/
 
 /*----------------------------------- BACKDROP -------------------------------*/
