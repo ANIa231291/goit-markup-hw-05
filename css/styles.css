@@ -1036,6 +1036,9 @@ img {
 .privacy-label a {
   color: var(--IRIS, #4d5ae5);
   text-decoration: underline;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
 }
 .privacy-label span {
   display: inline-flex;
