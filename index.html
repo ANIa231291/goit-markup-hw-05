@@ -519,7 +519,7 @@
 
       <div class="modal">
         <button type="button" class="modal-btn">
-          <svg class="modal-close" width="8px" height="8px">
+          <svg class="modal-close" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black-18dp-2-1-1"></use>
           </svg>
         </button>
@@ -551,7 +551,7 @@
                 placeholder=""
                 id="user-phone"
               />
-              <svg class="modal-icon" weight="18" height="24">
+              <svg class="modal-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone-black-18dp-1-1"></use>
               </svg>
             </div>
@@ -566,7 +566,7 @@
                 placeholder=""
                 id="user-email"
               />
-              <svg class="modal-icon" weight="18" height="24">
+              <svg class="modal-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-email-black-18dp-1-1"></use>
               </svg>
             </div>
@@ -576,8 +576,7 @@
               for="user-comment"
               class="label-comment container-modal-label"
               >Comment</label
-            >
-            <textarea
+            ><textarea
               name="user-comment"
               class="modal-comment"
               placeholder="Text input"
@@ -605,7 +604,9 @@
               <a href="">Privacy Policy</a></label
             >
           </div>
-          <button type="submit" class="modal-btn-submit">Send</button>
+          <div class="button-container">
+            <button type="submit" class="modal-btn-submit">Send</button>
+          </div>
         </form>
       </div>
     </div>
