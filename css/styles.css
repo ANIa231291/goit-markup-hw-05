@@ -897,13 +897,14 @@ img {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: 1px solid rgba(46, 47, 66, 0.4);
+  /* border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4)); */
 }
 
 .modal-imput-wrap {
   position: relative;
   margin-bottom: 16px;
   color: var(--LIGHT-SLATE, #8e8f99);
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  /* border: 1px solid rgba(46, 47, 66, 0.4); */
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-color: #4d5ae5;
   border-radius: 4px;
