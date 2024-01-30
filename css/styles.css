@@ -1044,8 +1044,13 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
+.privacy-label:checked {
+  fill: #f4f4fd;
+}
+
 .privacy-label span {
   fill: transparent;
+
   display: inline-flex;
   width: 16px;
   height: 16px;
