@@ -51,7 +51,7 @@ img {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
+  /* padding-left: 15px; */
   padding-right: 15px;
   border-top: none;
 }
@@ -456,11 +456,11 @@ img {
 
 .social-list {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   column-gap: 24px;
-  padding-top: 8px;
-  gap: 24px;
+
+  /* gap: 24px; */
 }
 
 .social-list-item {
@@ -669,7 +669,6 @@ img {
 }
 
 .container-footer {
-  display: flex;
   justify-content: center;
 }
 .social-list-center {
@@ -711,7 +710,7 @@ img {
 .paragraph-footer {
   color: var(--WHITE, #fff);
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   margin-bottom: 16px;
   font-weight: 500;
 }
@@ -736,7 +735,7 @@ img {
 .modal-form-footer {
   display: flex;
   gap: 24px;
-  margin-left: 16px;
+  /* margin-left: 16px; */
 }
 
 .modal-input-footer {
@@ -772,9 +771,8 @@ img {
   min-width: 165px;
 }
 .modal-icon-footer {
-  left: 16px;
-  bottom: 11px;
-  transform: translate(-50%);
+  fill: #f4f4fd;
+
   margin-left: 16px;
 }
 
@@ -1046,60 +1044,32 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
-.privacy-label:checked span {
-  fill: #f4f4fd;
-}
 
 .privacy-label span {
   fill: transparent;
-
   border: 1px solid rgba(46, 47, 66, 0.4);
   display: inline-flex;
   width: 16px;
   height: 16px;
   flex-shrink: 0;
-  stroke-width: 1px;
-  border: 1px solid #2e2f42;
-  stroke: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
-  margin: 16px 8px 24px 0;
 }
-/* .check-input:checked + .privacy-label span {
+.check-input:checked + label span {
   background-color: var(--OCEAN, #404bbf);
   border: none;
   fill: #e7e9fc;
-} */
-
-.privacy-label:checked + span {
-  fill: #f4f4fd;
-  display: inline-flex;
-  border: 1px solid rgba(46, 47, 66, 0.4);
 }
-
-/* .check-input {
-  border: 1px solid rgba(46, 47, 66, 0.4);
-} */
 
 .span-check {
   padding: 0;
   justify-content: center;
   align-items: center;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  /* transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) visibility 250ms
-    cubic-bezier(0.4, 0, 0.2, 1); */
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.check-icon-use:focus {
-}
-
-.span-check:hover,
-.span-check:focus {
-  background-color: #404bbf;
-  border: none;
-}
 .span-check:hover > .check-icon,
 .span-check:focus > .span-check {
   fill: #ffffff;
