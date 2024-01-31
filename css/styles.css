@@ -1056,7 +1056,7 @@ img {
 .check-input:checked + label span {
   background-color: var(--OCEAN, #404bbf);
   border: none;
-  fill: #e7e9fc;
+  fill: #f4f4fd;
 }
 
 .span-check {
